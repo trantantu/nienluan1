@@ -303,11 +303,14 @@
     right: -4px;
     color: red;
 }
-
-.danhmuc-item-active .danhmuc-item-link{
+#allsp{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.danhmuc-item-active{
     color: red;
 }
-.danhmuc-item-active .danhmuc-item-link::before {
+.danhmuc-item-active::before {
     position: absolute;
     top: 50%;
     left: 4px;
