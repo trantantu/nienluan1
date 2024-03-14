@@ -6,7 +6,7 @@ import MainSanPham from "./components/MainSanPham";
 import { Route,Routes,Link } from "react-router-dom";
 import MainChiTiet from "./components/MainChiTiet";
 import MainDangNhap from "./components/MainDangNhap";
-
+import Datlich from "./components/Datlich";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/sanpham" element={<MainSanPham/>}></Route>
         <Route path="/chitiet" element={<MainChiTiet/>}></Route>
         <Route path="/dangnhap" element={<MainDangNhap/>}></Route>
+        <Route path="/datlich" element={<Datlich/>}></Route>
        </Routes>
      <Footer />
    </div>

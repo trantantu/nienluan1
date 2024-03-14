@@ -15,7 +15,7 @@ export default function Main() {
   <section className="bg">
     <h1>TRAVIS BARBERSHOP</h1>
     <button className="btn-dl my-5">
-      <a href="datlich.html">ĐẶT LỊCH NGAY</a>
+      <a href="datlich">ĐẶT LỊCH NGAY</a>
     </button>
   </section>
   <div className="container my-5 sp_items">
