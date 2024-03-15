@@ -1,11 +1,20 @@
 import React from "react";
 import '../css/style.css';
 import '../css/dangnhap.css';
+
 export default function MainDangNhap(){
+  function dangky(){
+    const active = document.getElementById('activedangky')
+    active.classList.add('active')
+  }
+  function dangnhap(){
+    const active = document.getElementById('activedangky')
+    active.classList.remove('active')
+  }
     return(
       <main className="dangnhap py-5">
       
-        <div className="wrapper">
+        <div id="activedangky" className="wrapper">
   <div className="form-box login">
     <h2>Đăng nhập</h2>
     <form
@@ -42,7 +51,7 @@ export default function MainDangNhap(){
         <p>
           {" "}
           Tạo tài khoản:
-          <a href="#" className="register-link">
+          <a onClick={dangky} href="#" className="register-link">
             {" "}
             Đăng ký
           </a>
@@ -92,7 +101,7 @@ export default function MainDangNhap(){
       <div className="login-register">
         <p>
           Đã có tài khoản
-          <a href="#" className="login-link">
+          <a onClick={dangnhap} href="#" className="login-link">
             Đăng nhập
           </a>
         </p>
