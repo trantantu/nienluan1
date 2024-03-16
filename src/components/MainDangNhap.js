@@ -100,7 +100,7 @@ export default function MainDangNhap(){
       </button>
       <div className="login-register">
         <p>
-          Đã có tài khoản
+          Đã có tài khoản:
           <a onClick={dangnhap} href="#" className="login-link">
             Đăng nhập
           </a>

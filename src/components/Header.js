@@ -91,11 +91,7 @@ export default function Header() {
                     TRANG CHỦ
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="dichvu">
-                    DỊCH VỤ
-                  </a>
-                </li>
+                
                 <li className="nav-item">
                   <a className="nav-link" href="sanpham">
                     {" "}

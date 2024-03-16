@@ -68,7 +68,7 @@ export default function Main() {
     </div>
   </div>
   <div className="my-5">
-    <a href="#" className="btn_xt">
+    <a href="/sanpham" className="btn_xt">
       Xem Thêm
     </a>
   </div>
